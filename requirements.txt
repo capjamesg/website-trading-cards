@@ -1,7 +1,6 @@
 opencv-python
 mf2py
 numpy
-requirements
 bs4
 Pillow
 scikit-learn
