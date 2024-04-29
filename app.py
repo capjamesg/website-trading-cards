@@ -27,7 +27,7 @@ try:
 except Exception:
     exit("Invalid URL")
 
-with open("figma-to-html/index.html") as html_file:
+with open("templates/index.html") as html_file:
     soup = BeautifulSoup(html_file, "lxml")
 
 data = markup["items"]
